@@ -7,7 +7,7 @@ public class novaPessoa {
 
     public static void main(String[] args) throws SQLException {
         
-        Scanner entrada = new Scanner(System.in);
+        Scanner entrada = new Scanner(System.in); 
 
         System.out.println("Informe o nome: ");
         String nome = entrada.nextLine();
