@@ -13,6 +13,7 @@ public class obterUsuario {
         EntityManager em = emf.createEntityManager();
 
         Usuario usuario = em.find(Usuario.class, 1L);
+        system.out.println(usuario.getNome());
 
         em.close();
         emf.close();
