@@ -6,7 +6,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 @Entity
-public class Usurious {
+public class Usuario {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -17,11 +17,11 @@ public class Usurious {
     private String email;
 
     // construtor padrao nescessario para Hibernate
-    public Usurious() {
+    public Usuario() {
 
     }
 
-    public Usurious(String nome, String email) {
+    public Usuario(String nome, String email) {
         this.nome = nome;
         this.email = email;
     }
