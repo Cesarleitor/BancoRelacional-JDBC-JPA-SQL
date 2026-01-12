@@ -14,7 +14,7 @@ public class NovoUsuario {
                 .createEntityManagerFactory("jpa");
         EntityManager em = emf.createEntityManager();
 
-        Usuario novoUsurious = new Usuario("teste", "teste@gmail.com");
+        Usuario novoUsurious = new Usuario("Juliana", "juliana@gmail.com");
 
         em.getTransaction().begin();
         em.persist(novoUsurious);
